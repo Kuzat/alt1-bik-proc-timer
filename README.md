@@ -8,7 +8,12 @@ In the same vein that the UI clock can become desynchronized from the actual gam
 ## Fork Purpose
 I don't like Google analytics in any way, shape, or form. This fork provides all the functionality of the original repo, but without the analytics.
 
-In the future, I may choose to add functionality, such as automatic synchronization via chat timestamps, sounds, and customizable alert timings.
+## TODOs
+In the future I may choose to add functionality, though there are no guarantees of this. Some of the features I would like to add are:
+- automatic synchronization via chat timestamps
+- sounds
+- customizable alert timings
+- "inverse activation" warnings (for when you accidentally rutn your book on/off incorrectly)
 
 ## Installation
 To install BikProcTimer copy & paste this link into your browser:
