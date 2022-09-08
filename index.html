@@ -35,6 +35,7 @@
     </style>
     <script>
         let startTime = Date.now() - (new Date().getSeconds() * 1000)
+        const audio = new Audio('./assets/bell_sound.mp3')
         console.log(startTime)
         window.onload = (event) => {
             console.log('page is fully loaded');
@@ -47,6 +48,7 @@
                 containerEl.style.background = null
                 if (relSec > 56) {
                     containerEl.style.animation = 'blinking 500ms infinite'
+                    audio.play()
                 }
                 if (relSec > 0 && relSec < 2) {
                     containerEl.style.animation = null

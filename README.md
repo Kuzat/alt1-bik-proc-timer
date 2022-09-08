@@ -6,24 +6,25 @@ In order for the timer to be most accurate, you should enable chat timestamps in
 In the same vein that the UI clock can become desynchronized from the actual game clock, actions can also become severely delayed on high population worlds (both client and server side). Because of this, I suggest that if you are on a high population world, you enable the book at approximately XX:XX:55, and disable it at XX:XX:05. Though this does consume more charges from the book, consumed charges are more favorable than missed proc opportunities.
 
 ## Fork Purpose
-I don't like Google analytics in any way, shape, or form. This fork provides all the functionality of the original repo, but without the analytics.
+This fork of a fork. I don't like the google anlytics so I forked the fork that removed google analytics. In this fork I want to improve by adding a sound notification.
 
 ## TODOs
 In the future I may choose to add functionality, though there are no guarantees of this. Some of the features I would like to add are:
 - automatic synchronization via chat timestamps
-- sounds
+- sounds ✅
 - customizable alert timings
 - "inverse activation" warnings (for when you accidentally rutn your book on/off incorrectly)
 
 ## Installation
 To install BikProcTimer copy & paste this link into your browser:
 ```
-alt1://addapp/https://import-that.github.io/alt1-bik-proc-timer/appconfig.json
+alt1://addapp/https://kuzat.github.io/alt1-bik-proc-timer-pro/appconfig.json
 ```
 
 Or go to this URL in the alt1 browser:
 
-https://import-that.github.io/alt1-bik-proc-timer/
+https://kuzat.github.io/alt1-bik-proc-timer-pro/
 
 ## Credit
-This repo is a fork of the original by [amerryma](https://github.com/amerryma), and the original app can be found at https://github.com/amerryma/alt1-bik-proc-timer
+- This repo is a fork of the original by [amerryma](https://github.com/amerryma), and the original app can be found at https://github.com/amerryma/alt1-bik-proc-timer
+- Sound effects obtained from https://www.zapsplat.com

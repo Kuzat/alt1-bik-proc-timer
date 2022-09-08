@@ -1,5 +1,5 @@
 {
-    "appName": "BikProcTimer",
+    "appName": "BikProcTimerPro",
     "description": "Allows user to sync a timer to the in-game timer then alerts when book is about to proc.",
     "appUrl": "./index.html",
     "configUrl": "./appconfig.json",
