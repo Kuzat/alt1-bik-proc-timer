@@ -45,6 +45,7 @@
     <script>
         let startTime = Date.now() - (new Date().getSeconds() * 1000)
         const audio = new Audio('./assets/bell_sound.mp3')
+        audio.volume = 0.2
         console.log(startTime)
         window.onload = (event) => {
             console.log('page is fully loaded');
